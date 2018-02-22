@@ -10,5 +10,5 @@ This is a sample demo running nodejs server with pug template.
 - Clone the repository
 - Navigate to the project root
 - Run `npm install`
-- Run `npm serve`
+- Run `npm run server`
 - Run `open http://localhost:3000`
