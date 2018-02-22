@@ -1,0 +1,16 @@
+dist
+build/
+docs/dist
+node_modules
+
+.idea
+.vscode
+.DS_Store
+__MACOSX
+*.log
+*.local.json
+*.local.js
+*.local.yml
+
+/newrelic.js
+*.heapsnapshot

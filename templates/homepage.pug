@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title Hello World
+    link(href='https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css', rel='stylesheet')
+
+  body(class='bg-indigo-darker')
+    div(class='container mx-auto mt-8')
+      div(class='max-w-sm rounded overflow-hidden shadow-lg mx-auto bg-white hover:bg-grey-lighter')
+        div(class='px-6 py-4')
+          div(class='font-bold text-xl mb-2') Hello #{name}!
+          p(class='text-grey-darker text-base') Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+        div(class='px-6 py-4')
+          span(class='inline-block bg-grey hover:bg-grey-dark rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2') #pug
+          span(class='inline-block bg-grey hover:bg-grey-dark rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2') #nodejs
